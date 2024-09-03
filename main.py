@@ -10,3 +10,10 @@ async def hello():
 async def world():
     return "Hello World from post"
     
+    
+''' uvicorn main:app --reload
+        |
+    to run the file 
+    uvicorn filename:app --reload(reload is used when we are in development)
+
+'''
