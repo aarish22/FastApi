@@ -1,6 +1,5 @@
 from fastapi import FastAPI,HTTPException
 from enum import Enum
-
 app = FastAPI()
 
 class GenreURLChoices(Enum):
