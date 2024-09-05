@@ -4,8 +4,8 @@ from datetime import date
 
 
 class GenreURLChoices(Enum):
-    ROCK = 'rock',
-    POP = 'pop',
+    ROCK = 'rock'
+    POP = 'pop'
     METAL = 'metal'
     
 class Album(BaseModel):
