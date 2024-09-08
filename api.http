@@ -1,0 +1,16 @@
+POST http://localhost:8000/bands/
+Content-Type: application/json
+
+{
+    "name": "Imagine Dragons",
+    "genre": "Pop",
+    "albums": [
+        {
+            "title":"Hello World",
+            "release_date":"1998-09-09"
+        }
+    ]
+}
+###
+
+GET http://localhost:8000/bands/
